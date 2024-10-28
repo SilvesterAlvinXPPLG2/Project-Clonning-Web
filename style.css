@@ -1,0 +1,157 @@
+body {
+    background-color: whitesmoke;
+}
+
+.Logo_oppo img{
+    height: 34px;
+    width: 86px;
+    display: flex;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+
+body header {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 20px;
+    justify-content: baseline;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+header nav ul input {
+    margin-left: 15px;
+    border-radius: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgb(229, 229, 236);
+}
+
+.Logo_account {
+    margin-top: 19px;
+    margin-left: 20px;
+}
+
+main {
+    width: 100%;
+    background-color: white;
+    height: 1600px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+main .hello {
+    background-image: url(image/Tablet-Reno-12-Pro-5G.jpg.thumb.webp);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;    
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+main div.hello div.homepage img {
+    margin-top: 8rem;
+    width: 100px;
+    margin-left: 3rem;
+}
+
+main div.hello h1 {
+    font-family: OPPOSans-Ver2-Medium;
+    margin-left: 3rem;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+main div.hello p {
+    margin: 0%;
+    padding-left: 3rem;
+}
+
+main div.hello button {
+    background-color: transparent;
+    color: black;
+    width: 10%;
+    height: 5%;
+    border-radius: 360px;
+    margin-left: 45px;
+    margin-top: 450px;
+}
+
+
+main .hello2{
+    background-image: url(image/Tablet-Reno-12-5G.jpg.thumb.webp);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 5px;
+}
+
+main div.hello2 div.homepage img {
+    margin-top: 8rem;
+    width: 100px;
+    margin-left: 3rem;
+}
+
+main div.hello2 h1 {
+    font-family: OPPOSans-Ver2-Medium;
+    margin-left: 3rem;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+main div.hello2 p {
+    margin: 0%;
+    padding-left: 3rem;
+}
+
+main div.hello2 button {
+    background-color: transparent;
+    color: black;
+    width: 10%;
+    height: 5%;
+    border-radius: 360px;
+    margin-left: 45px;
+    margin-top: 450px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+}
+
+footer div.buscontainer1 h3, div.buscontainer2 h3, div.buscontainer3 h3, div.buscontainer4 h3, div.buscontainer5 h3, div.buscontainer6 h3 {
+    color: white;
+}
+
+footer div.buscontainer1 p, div.buscontainer2 p, div.buscontainer3 p, div.buscontainer4 p, div.buscontainer5 p, div.buscontainer6 p {
+    color: grey;
+}
+
+footer div.container {
+    justify-content: center;
+    display: flex;
+    margin: 40px;
+}
